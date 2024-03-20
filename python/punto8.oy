@@ -1,0 +1,9 @@
+#Octava pregunta: Calcular el promedio de tres (3) números ingresados por teclado
+print("Octava pregunta: Calcular el promedio de tres (3) números ingresados por teclado")
+
+numero_uno = float(input("Digite el primer número: "))
+numero_dos = float(input("Digite el segundo número: "))
+numero_tres = float(input("Digite el tercer número: "))
+promedio = (numero_uno + numero_dos + numero_tres)/3
+resultado_promedio = print(f"El promedio de los tres números es {promedio}")
+
